@@ -1,6 +1,21 @@
-frontend-nanodegree-arcade-game
-===============================
+# Introduction
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is the first draft of a redesign of the game called Frogger made for an Udacity project in January 2017. 
+The aim of the game is to make the player go from its start position to the river while evading bugs. 
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to run the game
+
+You will need :
+* A browser. The game has been tested on Chrome Version 55.0.2883.87 m (64-bit) and Firefox 50.1.0
+* Internet connection to download the game.
+
+## How to play the game
+
+* Move the player by using the arrows keys.
+* If the player tries to go outside of the game zone, they are automatically going back to the start.
+* The bugs are tenacious and have five lives each.
+* The player will loose the game if a bug is killed five times.
+* If the player collides with the bugs, they are automatically going back to the start.
+* The player wins the game if they can reach the river three times.
+
+Whether the game is lost or won, it is reset and the player is back to its starting point.
